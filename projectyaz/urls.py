@@ -20,6 +20,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('', include( 'home.urls')), #hiçbir şey yazılmadan yani 127.0.0.1:8000 direkt home a gidicek
     path('home/', include('home.urls')), #home/ gelen her şey home a ait olacak
     path('admin/', admin.site.urls),
+    path( 'ilan/', include('ilan.urls') ), #root ekledim
+
+
 ]
