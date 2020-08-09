@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b2ddad-aeb7-4ea2-9ba9-fb783156137a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ilan/migrations/0002_ilan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/burs.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilan/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ilan/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilan/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ilan/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectyaz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectyaz/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1595875228965" duration="18000" />
       <workItem from="1596535613331" duration="732000" />
       <workItem from="1596797387601" duration="6876000" />
-      <workItem from="1596974581350" duration="2686000" />
+      <workItem from="1596974581350" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu">
       <created>1596805407686</created>
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596975981931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="model category, ilan ilişkisi(4.video)">
+      <created>1596982960396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596982960396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,41 +126,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu" />
     <MESSAGE value="admin panel oluşturulması, adminde login olunması, super kullanıcı, tablonun adminde görünmesi" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin panel oluşturulması, adminde login olunması, super kullanıcı, tablonun adminde görünmesi" />
+    <MESSAGE value="model category, ilan ilişkisi(4.video)" />
+    <option name="LAST_COMMIT_MESSAGE" value="model category, ilan ilişkisi(4.video)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="37" key="#urls" timestamp="1595178490233">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="409" y="37" key="#urls/0.0.1366.768@0.0.1366.768" timestamp="1595178490233" />
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1596975980458">
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1596982959174">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1596975980458" />
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1596982959174" />
     <state x="500" y="142" key="FileChooserDialogImpl" timestamp="1596536908925">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state x="500" y="142" key="FileChooserDialogImpl/74.0.1292.768@74.0.1292.768" timestamp="1596536908925" />
-    <state width="668" height="296" key="GridCell.Tab.0.bottom" timestamp="1596982870065">
+    <state width="1249" height="173" key="GridCell.Tab.0.bottom" timestamp="1596983358585">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="668" height="296" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1596982870065" />
-    <state width="668" height="296" key="GridCell.Tab.0.center" timestamp="1596982870065">
+    <state width="1249" height="173" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1596983358585" />
+    <state width="1249" height="173" key="GridCell.Tab.0.center" timestamp="1596983358585">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="668" height="296" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1596982870065" />
-    <state width="668" height="296" key="GridCell.Tab.0.left" timestamp="1596982870065">
+    <state width="1249" height="173" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1596983358585" />
+    <state width="1249" height="173" key="GridCell.Tab.0.left" timestamp="1596983358585">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="668" height="296" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1596982870065" />
-    <state width="668" height="296" key="GridCell.Tab.0.right" timestamp="1596982870065">
+    <state width="1249" height="173" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1596983358585" />
+    <state width="1249" height="173" key="GridCell.Tab.0.right" timestamp="1596983358585">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="668" height="296" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1596982870065" />
-    <state x="312" y="120" key="Vcs.Push.Dialog.v2" timestamp="1596975989099">
+    <state width="1249" height="173" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1596983358585" />
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2" timestamp="1596982966269">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="312" y="120" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1596975989099" />
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1596982966269" />
     <state x="444" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1596974699034">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
