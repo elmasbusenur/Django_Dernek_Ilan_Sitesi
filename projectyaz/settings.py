@@ -120,6 +120,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/' #static dosyalarının yolunun bulunduğu yer
 MEDIA_URL = '/uploads/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads') #uploads klasörünü media root olarak tanıttık. media root dışardan yüklenecek ögeler

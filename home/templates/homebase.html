@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{%  load static %}
+ <meta charset="utf-8">
+
+    <title>{% block title %}Anasayfa    {% endblock %}</title>
+    <meta name="keywords" content="{% block keywords %} Anasayfa anahtar kelimeler    {% endblock %}" />
+	<meta name="description" content="{% block description %} Anasayfa kısa açıklama	{% endblock %}" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.css' %}" />
+    <!-- Customize styles -->
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <!-- font awesome styles -->
+	<link rel="stylesheet" href="{% static 'assets/font-awesome/css/font-awesome.css' %}" />
+		<!--[if IE 7]>
+	<link rel="stylesheet" href="{% static 'css/font-awesome-ie7.min.css' %}" />
+		<![endif]-->
+
+		<!--[if lt IE 9]>
+	<script src=" {% static 'http://html5shim.googlecode.com/svn/trunk/html5.js' %}"></script>
+		<![endif]-->
+
+	<!-- Favicons -->
+    <link rel="shortcut icon" href=" {% static 'assets/ico/favicon.ico' %}"/>
+{% block head %}   {% endblock %}
+
+</head>
+<body>
+  <!--header değişmeyeceği için buraya include ediyoruz-->
+    {% include 'header.html' %} <!--sayfayı tamamen çağırmak-->
+    <!--seçimli yapmak istersek block oluşturuyoruz, kullanmak istersek eğer-->
+    {% block sidebar %} {% endblock %}
+    {% block slider %}  {% endblock %}
+    {% block content %} {% endblock %}
+    {% include 'footer.html' %}
+    {% block foot %}    {% endblock %}
+</body>
+</html>

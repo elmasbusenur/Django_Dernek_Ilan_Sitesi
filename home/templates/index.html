@@ -1,11 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>İlk Django Sayfası</title>
-</head>
-<body>
-<h1>Hoşgeldin Django Projesi</h1>
-<h3>Karabük üniversitesi</h3>
-</body>
-</html>
+
+<!--bu sayfasa homebase e bağlı olarak çalışıcam-->
+{% extends 'homebase.html' %}
+{%  load static %}
+{% block title %}İndex Sayfası {{setting.title}}{% endblock %}
+{% block keywords %}İndex Sayfası Anahtar Kelimeler{{setting.keywords}}{% endblock %}
+{% block description %}{{setting.description}}{% endblock %}
+
+{% block head %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ setting.icon.url }}"/>
+{% endblock %}
+
+<!--açıkan tüm html lerde buralar geçerli, tek tek hepsine göndermem gerekmiyor buralar include olduğu için, controller(view)dan gönderdiğimiz dataları görür-->
+
+{% block sidebar %} {% include 'sidebar.html' %}{% endblock %}
+{% block slider %} {% include 'slider.html' %}{% endblock %}
+{% block content %} {% include 'content.html' %}{% endblock %}
+<!--burada eklediğimiz şeyler sayfada görünmesini istediğimiz şeyler-->
