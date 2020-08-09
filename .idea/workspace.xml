@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b2ddad-aeb7-4ea2-9ba9-fb783156137a" name="Default Changelist" comment="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu">
-      <change afterPath="$PROJECT_DIR$/ilan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/views.py" afterDir="false" />
+    <list default="true" id="63b2ddad-aeb7-4ea2-9ba9-fb783156137a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Gülay_Busenur_ELMAS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Gülay_Busenur_ELMAS.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectyaz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectyaz/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectyaz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectyaz/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ilan/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ilan/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +92,17 @@
       <workItem from="1595172566790" duration="5316000" />
       <workItem from="1595875228965" duration="18000" />
       <workItem from="1596535613331" duration="732000" />
-      <workItem from="1596797387601" duration="3519000" />
+      <workItem from="1596797387601" duration="6876000" />
+      <workItem from="1596974581350" duration="988000" />
     </task>
+    <task id="LOCAL-00001" summary="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu">
+      <created>1596805407686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596805407686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,40 +110,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu" />
+    <option name="LAST_COMMIT_MESSAGE" value="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="37" key="#urls" timestamp="1595178490233">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="409" y="37" key="#urls/0.0.1366.768@0.0.1366.768" timestamp="1595178490233" />
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1596805290198">
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1596805406507">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1596805290198" />
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1596805406507" />
     <state x="500" y="142" key="FileChooserDialogImpl" timestamp="1596536908925">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state x="500" y="142" key="FileChooserDialogImpl/74.0.1292.768@74.0.1292.768" timestamp="1596536908925" />
-    <state width="1249" height="313" key="GridCell.Tab.0.bottom" timestamp="1596802808644">
+    <state width="1249" height="313" key="GridCell.Tab.0.bottom" timestamp="1596975696489">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="313" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1596802808644" />
-    <state width="1249" height="313" key="GridCell.Tab.0.center" timestamp="1596802808644">
+    <state width="1249" height="313" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1596975696489" />
+    <state width="1249" height="313" key="GridCell.Tab.0.center" timestamp="1596975696489">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="313" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1596802808644" />
-    <state width="1249" height="313" key="GridCell.Tab.0.left" timestamp="1596802808635">
+    <state width="1249" height="313" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1596975696489" />
+    <state width="1249" height="313" key="GridCell.Tab.0.left" timestamp="1596975696489">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="313" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1596802808635" />
-    <state width="1249" height="313" key="GridCell.Tab.0.right" timestamp="1596802808644">
+    <state width="1249" height="313" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1596975696489" />
+    <state width="1249" height="313" key="GridCell.Tab.0.right" timestamp="1596975696489">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="313" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1596802808644" />
-    <state x="444" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1596535670721">
+    <state width="1249" height="313" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1596975696489" />
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2" timestamp="1596805428043">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1596805428043" />
+    <state x="444" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1596974699034">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state x="391" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1595183990150" />
-    <state x="444" y="211" key="com.intellij.ide.util.TipDialog/74.0.1292.768@74.0.1292.768" timestamp="1596535670721" />
+    <state x="444" y="211" key="com.intellij.ide.util.TipDialog/74.0.1292.768@74.0.1292.768" timestamp="1596974699034" />
+    <state x="387" y="76" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596975574418">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state x="387" y="76" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/74.0.1292.768@74.0.1292.768" timestamp="1596975574418" />
   </component>
 </project>
