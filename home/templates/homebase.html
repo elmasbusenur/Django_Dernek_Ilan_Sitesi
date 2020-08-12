@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 {%  load static %}
- <meta charset="utf-8">
+    <meta charset="utf-8">
 
-    <title>{% block title %}Anasayfa    {% endblock %}</title>
+    <title>{% block title %}Anasayfa{% endblock %}</title>
     <meta name="keywords" content="{% block keywords %} Anasayfa anahtar kelimeler    {% endblock %}" />
 	<meta name="description" content="{% block description %} Anasayfa kısa açıklama	{% endblock %}" />
 
@@ -14,7 +13,7 @@
     <!-- Bootstrap styles -->
     <link rel="stylesheet" href="{% static 'assets/css/bootstrap.css' %}" />
     <!-- Customize styles -->
-    <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/style.css' %}" />
     <!-- font awesome styles -->
 	<link rel="stylesheet" href="{% static 'assets/font-awesome/css/font-awesome.css' %}" />
 		<!--[if IE 7]>
@@ -30,14 +29,14 @@
 {% block head %}   {% endblock %}
 
 </head>
-<body>
-  <!--header değişmeyeceği için buraya include ediyoruz-->
-    {% include 'header.html' %} <!--sayfayı tamamen çağırmak-->
-    <!--seçimli yapmak istersek block oluşturuyoruz, kullanmak istersek eğer-->
-    {% block sidebar %} {% endblock %}
-    {% block slider %}  {% endblock %}
-    {% block content %} {% endblock %}
-    {% include 'footer.html' %}
-    {% block foot %}    {% endblock %}
-</body>
+    <body>
+     <!--header değişmeyeceği için buraya include ediyoruz-->
+      {% include 'header.html' %} <!--sayfayı tamamen çağırmak-->
+        <!--seçimli yapmak istersek block oluşturuyoruz, kullanmak istersek eğer-->
+        {% block sidebar %} {% endblock %}
+        {% block slider %}  {% endblock %}
+        {% block content %} {% endblock %}
+        {% include 'footer.html' %}
+        {% block foot %}    {% endblock %}
+    </body>
 </html>

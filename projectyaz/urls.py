@@ -14,16 +14,22 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
+from django.conf.urls.static import static
+
 """ANA URL BURASI"""
 """diğer url leri buraya ekliycem"""
 from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include( 'home.urls')), #hiçbir şey yazılmadan yani 127.0.0.1:8000 direkt home a gidicek
+    path('', include('home.urls')), #hiçbir şey yazılmadan yani 127.0.0.1:8000 direkt home a gidicek
     path('home/', include('home.urls')), #home/ gelen her şey home a ait olacak
     path('admin/', admin.site.urls),
-    path( 'ilan/', include('ilan.urls') ), #root ekledim
-
-
+    path('ilan/', include('ilan.urls') ), #root ekledim
+    path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
+# media rootun url içinde olduğunu gösteriyor.
+# resimleri göstermeyi bu kısım sağlıyor
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
