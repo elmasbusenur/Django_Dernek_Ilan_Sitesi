@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{%  load static %}
+    {%  load static %}
     <meta charset="utf-8">
+        <!--Block bize pencere açar-->
+    <title>{% block title %}Django Dernek İlan Duyuru Etkinlik Sitesi{% endblock %}</title> <!--İlerde title değiştirmek istersem diye block içinde tanımlıyorum.-->
+    <meta name="keywords" content="{% block keywords %} Anasayfa anahtar kelimeler   {% endblock %}" />
+	<meta name="description" content="{% block description %} Anasayfa anahtar kelimeler   {% endblock %}" />
 
-    <title>{% block title %}Anasayfa{% endblock %}</title>
-    <meta name="keywords" content="{% block keywords %} Anasayfa anahtar kelimeler    {% endblock %}" />
-	<meta name="description" content="{% block description %} Anasayfa kısa açıklama	{% endblock %}" />
+    <meta name="viewport" content="{% block viewport %} Anasayfa kısa açıklama	{% endblock %}" >
+    <meta name="author" content="{% block author %} Anasayfa kısa açıklama	{% endblock %}">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/prettyPhoto.css' %}" rel="stylesheet">
+    <link href="{% static 'css/price-range.css' %}" rel="stylesheet">
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+	<link href="{% static 'css/main.css' %}" rel="stylesheet">
+	<link href="{% static 'css/responsive.css' %}" rel="stylesheet">
 
-    <!-- Bootstrap styles -->
-    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.css' %}" />
-    <!-- Customize styles -->
-    <link rel="stylesheet" href="{% static 'assets/style.css' %}" />
-    <!-- font awesome styles -->
-	<link rel="stylesheet" href="{% static 'assets/font-awesome/css/font-awesome.css' %}" />
-		<!--[if IE 7]>
-	<link rel="stylesheet" href="{% static 'css/font-awesome-ie7.min.css' %}" />
-		<![endif]-->
+    <script src=" 'js/html5shiv.js"></script>
+    <script src=" 'js/respond.min.js"></script>
 
-		<!--[if lt IE 9]>
-	<script src=" {% static 'http://html5shim.googlecode.com/svn/trunk/html5.js' %}"></script>
-		<![endif]-->
-
-	<!-- Favicons -->
-    <link rel="shortcut icon" href=" {% static 'assets/ico/favicon.ico' %}"/>
-{% block head %}   {% endblock %}
-
-</head>
-    <body>
-     <!--header değişmeyeceği için buraya include ediyoruz-->
-      {% include 'header.html' %} <!--sayfayı tamamen çağırmak-->
-        <!--seçimli yapmak istersek block oluşturuyoruz, kullanmak istersek eğer-->
-        {% block sidebar %} {% endblock %}
-        {% block slider %}  {% endblock %}
-        {% block content %} {% endblock %}
-        {% include 'footer.html' %}
-        {% block foot %}    {% endblock %}
-    </body>
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    {% block head %}   {% endblock %}
+</head><!--/head-->
+<body>
+         <!--header değişmeyeceği için buraya include ediyoruz-->
+    {% include 'header.html' %}
+    <!--seçimli yapmak istersek block oluşturuyoruz, kullanmak istersek eğer-->
+    {% block slider %}  {% endblock %}
+    {% block content %}   {% endblock %}
+    {% include 'footer.html' %}
+    {% block foot %}    {% endblock %} <!--eğer footera ekleme yapmak istersem diye block oluşturuyorum-->
+   <!--footer ve header fix diğerleri değişken-->
+</body>
 </html>

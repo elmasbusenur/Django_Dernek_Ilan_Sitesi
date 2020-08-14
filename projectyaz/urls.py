@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.conf import settings
 from django.conf.urls.static import static
+from home import views
 
 """ANA URL BURASI"""
 """diğer url leri buraya ekliycem"""
@@ -24,9 +25,12 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('home.urls')), #hiçbir şey yazılmadan yani 127.0.0.1:8000 direkt home a gidicek
+    path('hakkimizda/', views.hakkimizda, name='hakkimizda'),
+    path('referanslar/', views.referanslar, name='referanslar'),
+    path('iletisim/', views.iletisim, name='iletisim'),
     path('home/', include('home.urls')), #home/ gelen her şey home a ait olacak
+    path('ilan/', include('ilan.urls' )),  # root ekledim
     path('admin/', admin.site.urls),
-    path('ilan/', include('ilan.urls') ), #root ekledim
     path('ckeditor/', include('ckeditor_uploader.urls')),
 ]
 # media rootun url içinde olduğunu gösteriyor.

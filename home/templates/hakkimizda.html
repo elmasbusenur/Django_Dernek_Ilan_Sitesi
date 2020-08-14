@@ -1,0 +1,37 @@
+<!--sayfalarımı burda çağırıcam-->
+<!--bu sayfasa homebase e bağlı olarak çalışıcam-->
+{% extends 'homebase.html' %}
+{%  load static %}
+{% block title %}HAKKIMIZDA- {{setting.company}}{% endblock %}
+{% block keywords %}İndex Sayfası Anahtar Kelimeler{{setting.keywords}}{% endblock %}
+{% block description %}{{setting.description}}{% endblock %}
+
+{% block head %}
+
+{% endblock %}
+
+<!--açıkan tüm html lerde buralar geçerli, tek tek hepsine göndermem gerekmiyor buralar include olduğu için, controller(view)dan gönderdiğimiz dataları görür-->
+
+
+{% block content %}
+<!--BLANK-->
+	<div class="section">
+		<div class="container">
+			<ul class="blank">
+				<li><a href="/">AnaSayfa</a></li>
+				<li class="active">Hakkımızda</li>
+			</ul>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+                 <ul class="blank">
+				    {{ setting.aboutus|safe }} <!--safe olması html taglarıda gelir-->
+			     </ul>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
+<!--burada eklediğimiz şeyler sayfada görünmesini istediğimiz şeyler-->

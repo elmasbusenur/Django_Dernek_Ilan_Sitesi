@@ -1,4 +1,4 @@
-
+<!--sayfalarımı burda çağırıcam-->
 <!--bu sayfasa homebase e bağlı olarak çalışıcam-->
 {% extends 'homebase.html' %}
 {%  load static %}
@@ -7,12 +7,11 @@
 {% block description %}{{setting.description}}{% endblock %}
 
 {% block head %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ setting.icon.url }}"/>
+
 {% endblock %}
 
 <!--açıkan tüm html lerde buralar geçerli, tek tek hepsine göndermem gerekmiyor buralar include olduğu için, controller(view)dan gönderdiğimiz dataları görür-->
 
-{% block sidebar %} {% include 'sidebar.html' %}{% endblock %}
 {% block slider %} {% include 'slider.html' %}{% endblock %}
 {% block content %} {% include 'content.html' %}{% endblock %}
 <!--burada eklediğimiz şeyler sayfada görünmesini istediğimiz şeyler-->

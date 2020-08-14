@@ -2,187 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b2ddad-aeb7-4ea2-9ba9-fb783156137a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0002_auto_20200812_1536.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0003_auto_20200812_1558.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/css/bootstrap-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome-ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome-ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/font-awesome-ie7.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/font-awesome-ie7.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/ico/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/ax.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/bootstrap-ecommerce-templates.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/bootstrap-ring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/bootstrap-template.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/bootstrap-templates.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/bootstrap_free-ecommerce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/bootstrappage_shop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/carousel1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/carousel3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/disc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/g.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/h.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/i.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/j.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/logo-bootstrap-shoping-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/maestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/mc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/paypal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/pp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/shop-cart.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/shopping-cart-template.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/img/white_leather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/js/jquery.easing-1.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/js/jquery.scrollTo-1.4.3.1-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/js/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/migrations/0004_auto_20200810_2353.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/ozelgun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/ozelgun_vPpytWC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/saglik.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/saglik_k6zM2pF.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/saglik_nUKCvjE.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/saglik_rgJgCsQ.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/vefat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/vefat_gvYYAm0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/İş-ilanı.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/İş-ilanı_qVdYVhK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/prettyPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/price-range.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/404/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/blog-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/blog-three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/blog-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/man-four.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/man-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/man-three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/man-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog/socials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/cart/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/cart/three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/cart/two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/bg_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/gallery1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/gallery2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/gallery3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/gallery4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/girl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/girl2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/girl3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/iframe1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/iframe2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/iframe3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/iframe4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/partner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/partner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/partner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/partner4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/pricing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/product2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/product3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/product4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/product5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/product6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/recommend1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/recommend2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/recommend3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/sale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/searchicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home/shipping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/product-details/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/product-details/new.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/product-details/rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/product-details/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/product-details/similar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/product-details/similar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/product-details/similar3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/shop/advertisement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/shop/product10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/shop/product11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/shop/product12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/shop/product7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/shop/product8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/shop/product9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/jquery.prettyPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/jquery.scrollUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/price-range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/referanslar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Gülay_Busenur_ELMAS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Gülay_Busenur_ELMAS.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/bootstrap-responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/bootstrap-responsive.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/css/font-awesome-ie7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/css/font-awesome-ie7.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/font/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/font/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/font/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/font/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/font/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/bootstrap.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/extras.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/font-awesome-ie7.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/_bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/_extras.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/font-awesome-ie7.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/ico/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/ax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/bootstrap-ecommerce-templates.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/bootstrap-ring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/bootstrap-template.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/bootstrap-templates.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/bootstrap_free-ecommerce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/bootstrappage_shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/carousel1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/carousel3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/disc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/g.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/h.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/i.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/j.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/logo-bootstrap-shoping-cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/maestro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/mc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/paypal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/pp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/shop-cart.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/shopping-cart-template.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/img/white_leather.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.easing-1.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/jquery.scrollTo-1.4.3.1-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/shop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/css/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/css/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome-ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome-ie7.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/font/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/extras.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/font-awesome-ie7.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_extras.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/font-awesome-ie7.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/ico/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/ax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/bootstrap-ecommerce-templates.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/bootstrap-ring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/bootstrap-template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/bootstrap-templates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/bootstrap_free-ecommerce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/bootstrappage_shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/carousel1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/carousel3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/disc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/i.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/logo-bootstrap-shoping-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/maestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/mc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/paypal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/pp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/shop-cart.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/shopping-cart-template.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/img/white_leather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/js/jquery.easing-1.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/js/jquery.scrollTo-1.4.3.1-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/js/shop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/assets/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilan/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ilan/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilan/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ilan/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectyaz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectyaz/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectyaz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectyaz/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +207,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -229,7 +217,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python38-32\Lib\site-packages\Django-3.0.8.dist-info\projectyaz\home\templates" />
       <recent name="C:\Python38-32\Lib\site-packages\Django-3.0.8.dist-info\projectyaz\ilan" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Python38-32\Lib\site-packages\Django-3.0.8.dist-info\projectyaz\home" />
     </key>
   </component>
   <component name="RunManager">
@@ -277,7 +269,11 @@
       <workItem from="1597086755848" duration="10818000" />
       <workItem from="1597132776442" duration="60000" />
       <workItem from="1597230437030" duration="1437000" />
-      <workItem from="1597232014127" duration="5298000" />
+      <workItem from="1597232014127" duration="6763000" />
+      <workItem from="1597263364904" duration="1198000" />
+      <workItem from="1597289343145" duration="24000" />
+      <workItem from="1597317329311" duration="12848000" />
+      <workItem from="1597372517807" duration="3753000" />
     </task>
     <task id="LOCAL-00001" summary="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu">
       <created>1596805407686</created>
@@ -321,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597088276752</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ckeditör ekleme(11.video)">
+      <created>1597239703250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597239703250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +338,8 @@
     <MESSAGE value="image uploads(5.video)" />
     <MESSAGE value="template parçalama" />
     <MESSAGE value="ilan image, images galeri(7.video)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ilan image, images galeri(7.video)" />
+    <MESSAGE value="ckeditör ekleme(11.video)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ckeditör ekleme(11.video)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="45" key="#Inspections" timestamp="1597092352230">
@@ -346,34 +350,42 @@
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state x="174" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.0.1292.768@74.0.1292.768" timestamp="1597231331534" />
+    <state x="431" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597323131520">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state x="431" y="194" key="#com.intellij.fileTypes.FileTypeChooser/74.0.1292.768@74.0.1292.768" timestamp="1597323131520" />
+    <state x="450" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597263829950">
+      <screen x="74" y="0" width="1292" height="768" />
+    </state>
+    <state x="450" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/74.0.1292.768@74.0.1292.768" timestamp="1597263829950" />
     <state x="409" y="37" key="#urls" timestamp="1595178490233">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="409" y="37" key="#urls/0.0.1366.768@0.0.1366.768" timestamp="1595178490233" />
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1597088275642">
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1597239701272">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1597088275642" />
-    <state x="500" y="142" key="FileChooserDialogImpl" timestamp="1597132834590">
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1597239701272" />
+    <state x="500" y="142" key="FileChooserDialogImpl" timestamp="1597289365520">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="500" y="142" key="FileChooserDialogImpl/74.0.1292.768@74.0.1292.768" timestamp="1597132834590" />
-    <state width="1249" height="339" key="GridCell.Tab.0.bottom" timestamp="1597237123194">
+    <state x="500" y="142" key="FileChooserDialogImpl/74.0.1292.768@74.0.1292.768" timestamp="1597289365520" />
+    <state width="1249" height="115" key="GridCell.Tab.0.bottom" timestamp="1597376388904">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="339" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1597237123194" />
-    <state width="1249" height="339" key="GridCell.Tab.0.center" timestamp="1597237123194">
+    <state width="1249" height="115" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1597376388904" />
+    <state width="1249" height="115" key="GridCell.Tab.0.center" timestamp="1597376388904">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="339" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1597237123194" />
-    <state width="1249" height="339" key="GridCell.Tab.0.left" timestamp="1597237123194">
+    <state width="1249" height="115" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1597376388904" />
+    <state width="1249" height="115" key="GridCell.Tab.0.left" timestamp="1597376388904">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="339" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1597237123194" />
-    <state width="1249" height="339" key="GridCell.Tab.0.right" timestamp="1597237123194">
+    <state width="1249" height="115" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1597376388904" />
+    <state width="1249" height="115" key="GridCell.Tab.0.right" timestamp="1597376388904">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="339" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1597237123194" />
+    <state width="1249" height="115" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1597376388904" />
     <state width="1249" height="79" key="GridCell.Tab.1.bottom" timestamp="1597231877530">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
@@ -390,15 +402,15 @@
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state width="1249" height="79" key="GridCell.Tab.1.right/74.0.1292.768@74.0.1292.768" timestamp="1597231877530" />
-    <state x="312" y="120" key="Vcs.Push.Dialog.v2" timestamp="1597088284569">
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2" timestamp="1597239707568">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="312" y="120" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1597088284569" />
-    <state x="444" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1597232014118">
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1597239707568" />
+    <state x="444" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1597372534512">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state x="391" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1595183990150" />
-    <state x="444" y="211" key="com.intellij.ide.util.TipDialog/74.0.1292.768@74.0.1292.768" timestamp="1597232014118" />
+    <state x="444" y="211" key="com.intellij.ide.util.TipDialog/74.0.1292.768@74.0.1292.768" timestamp="1597372534512" />
     <state x="387" y="76" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596975574418">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
