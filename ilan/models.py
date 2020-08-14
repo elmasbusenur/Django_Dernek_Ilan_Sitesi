@@ -36,7 +36,7 @@ class Ilan(models.Model ):  # kategori ile ilişki kuruyoruz
     category = models.ForeignKey(Category, on_delete=models.CASCADE )  # foreignkey kategori: kategoriye refere ettik
     title = models.CharField(max_length=150 )
     keywords = models.CharField(blank=True, max_length=255 )
-    description = models.CharField( blank=True, max_length=255 )
+    description = models.CharField(blank=True, max_length=255 )
     image = models.ImageField(blank=True, upload_to='images/' )
     detail = models.TextField(blank=True)
     slug = models.SlugField(blank=True, max_length=150 )  # adres satırında ürünü çağırabilmemiz için yazdığımız metin
@@ -44,7 +44,7 @@ class Ilan(models.Model ):  # kategori ile ilişki kuruyoruz
     create_at = models.DateTimeField(auto_now_add=True )
     update_at = models.DateTimeField(auto_now=True )
 
-    # alt kategori olduğu sürece arar ve istediğimiz işaretle art arta getirir"""
+    # alt kategori olduğu sürece arar ve istediğimiz işaretle ardarda getirir"""
 
     def __str__(self):
         return self.title
@@ -65,3 +65,4 @@ class Images(models.Model):
     def image_tag(self):  # image diye html kodu yazıyoruz. image url i search kısmına yazıyor.
         return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
         image_tag.short_description = 'Image'
+

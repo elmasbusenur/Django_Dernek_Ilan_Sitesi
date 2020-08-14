@@ -16,7 +16,7 @@ class IlanAdmin(admin.ModelAdmin):                #models.py deki image_tag
     list_display = ['title','category','status', 'image_tag']  # hangi alanlar görülsün istiyorum categoride
     readonly_fields = ('image_tag',)
     list_filter = ['status','category']  # statuye göre filtreliyorum
-    inlines = [IlanImageInline]  # blogimagesinline ürün ekleme sırasında istiyorsam burayada bağlantısını kurmalıyım
+    inlines = [IlanImageInline]  # blog imagesinline ürün ekleme sırasında istiyorsam burayada bağlantısını kurmalıyım
     '''blogla ilgili olduğu için sadece onunla alakalı şeyleri ekler
 imageye class ekliyorum'''
 
