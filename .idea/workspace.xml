@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b2ddad-aeb7-4ea2-9ba9-fb783156137a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/migrations/0004_contactformmessage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/migrations/0005_contactformmessage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilan/migrations/0006_delete_contactformmessage.py" afterDir="false" />
+    <list default="true" id="63b2ddad-aeb7-4ea2-9ba9-fb783156137a" name="Default Changelist" comment="13.video iletişim formu mesaj gönderme">
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Gülay_Busenur_ELMAS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Gülay_Busenur_ELMAS.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilan/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ilan/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilan/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ilan/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -115,7 +108,11 @@
       <workItem from="1597263364904" duration="1198000" />
       <workItem from="1597289343145" duration="24000" />
       <workItem from="1597317329311" duration="12848000" />
-      <workItem from="1597372517807" duration="10038000" />
+      <workItem from="1597372517807" duration="14533000" />
+      <workItem from="1597390752326" duration="707000" />
+      <workItem from="1597391567601" duration="80000" />
+      <workItem from="1597417761865" duration="6294000" />
+      <workItem from="1597427986997" duration="5927000" />
     </task>
     <task id="LOCAL-00001" summary="veritabanı yapısı, ilan uygulaması, category tablosu oluşturuldu">
       <created>1596805407686</created>
@@ -173,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597376464280</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="13.video iletişim formu mesaj gönderme">
+      <created>1597386089139</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597386089139</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +193,8 @@
     <MESSAGE value="ilan image, images galeri(7.video)" />
     <MESSAGE value="ckeditör ekleme(11.video)" />
     <MESSAGE value="ckeditör ekleme(12.video)&#10;iletisim.html, referanslar.html, hakkimizda.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="ckeditör ekleme(12.video)&#10;iletisim.html, referanslar.html, hakkimizda.html" />
+    <MESSAGE value="13.video iletişim formu mesaj gönderme" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.video iletişim formu mesaj gönderme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="45" key="#Inspections" timestamp="1597092352230">
@@ -212,30 +217,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="409" y="37" key="#urls/0.0.1366.768@0.0.1366.768" timestamp="1595178490233" />
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1597376462358">
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2" timestamp="1597390545525">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1597376462358" />
-    <state x="500" y="142" key="FileChooserDialogImpl" timestamp="1597289365520">
+    <state x="327" y="132" width="786" height="636" key="CommitChangelistDialog2/74.0.1292.768@74.0.1292.768" timestamp="1597390545525" />
+    <state x="500" y="142" key="FileChooserDialogImpl" timestamp="1597391608318">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="500" y="142" key="FileChooserDialogImpl/74.0.1292.768@74.0.1292.768" timestamp="1597289365520" />
-    <state width="1249" height="116" key="GridCell.Tab.0.bottom" timestamp="1597385961199">
+    <state x="500" y="142" key="FileChooserDialogImpl/74.0.1292.768@74.0.1292.768" timestamp="1597391608318" />
+    <state width="1249" height="209" key="GridCell.Tab.0.bottom" timestamp="1597435793019">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="116" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1597385961199" />
-    <state width="1249" height="116" key="GridCell.Tab.0.center" timestamp="1597385961199">
+    <state width="1249" height="209" key="GridCell.Tab.0.bottom/74.0.1292.768@74.0.1292.768" timestamp="1597435793019" />
+    <state width="1249" height="209" key="GridCell.Tab.0.center" timestamp="1597435793019">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="116" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1597385961199" />
-    <state width="1249" height="116" key="GridCell.Tab.0.left" timestamp="1597385961199">
+    <state width="1249" height="209" key="GridCell.Tab.0.center/74.0.1292.768@74.0.1292.768" timestamp="1597435793019" />
+    <state width="1249" height="209" key="GridCell.Tab.0.left" timestamp="1597435793019">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="116" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1597385961199" />
-    <state width="1249" height="116" key="GridCell.Tab.0.right" timestamp="1597385961199">
+    <state width="1249" height="209" key="GridCell.Tab.0.left/74.0.1292.768@74.0.1292.768" timestamp="1597435793019" />
+    <state width="1249" height="209" key="GridCell.Tab.0.right" timestamp="1597435793019">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state width="1249" height="116" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1597385961199" />
+    <state width="1249" height="209" key="GridCell.Tab.0.right/74.0.1292.768@74.0.1292.768" timestamp="1597435793019" />
     <state width="1249" height="79" key="GridCell.Tab.1.bottom" timestamp="1597231877530">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
@@ -252,18 +257,18 @@
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state width="1249" height="79" key="GridCell.Tab.1.right/74.0.1292.768@74.0.1292.768" timestamp="1597231877530" />
-    <state x="312" y="120" key="Vcs.Push.Dialog.v2" timestamp="1597376473764">
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2" timestamp="1597386103031">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="312" y="120" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1597376473764" />
-    <state x="444" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1597372534512">
+    <state x="312" y="120" key="Vcs.Push.Dialog.v2/74.0.1292.768@74.0.1292.768" timestamp="1597386103031" />
+    <state x="428" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1597427997916">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
     <state x="391" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1595183990150" />
-    <state x="444" y="211" key="com.intellij.ide.util.TipDialog/74.0.1292.768@74.0.1292.768" timestamp="1597372534512" />
-    <state x="387" y="76" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596975574418">
+    <state x="428" y="211" key="com.intellij.ide.util.TipDialog/74.0.1292.768@74.0.1292.768" timestamp="1597427997916" />
+    <state x="387" y="4" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597390361798">
       <screen x="74" y="0" width="1292" height="768" />
     </state>
-    <state x="387" y="76" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/74.0.1292.768@74.0.1292.768" timestamp="1596975574418" />
+    <state x="387" y="4" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/74.0.1292.768@74.0.1292.768" timestamp="1597390361798" />
   </component>
 </project>

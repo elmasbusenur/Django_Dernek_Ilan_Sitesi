@@ -7,10 +7,24 @@ from django.shortcuts import render
 from home.models import Setting, ContactFormu, ContactFormMessage
 
 # Create your views here.
+# slider a gelen verileri buradan göndericem
+# sorgu yapmamız gerekecek
+#burada ki kısımlar anasayfayı dinamik hale getiriyor
 def index(request):
-    setting = Setting.objects.get(pk=1)
-    context = {'setting': setting, 'page':'home'} #menüyü kontrol etmek istediğim için page ekliyorum
-    return render(request, 'index.html', context)
+    setting = Setting.objects.get(pk=1)  # primary key 1 i çağırıyor
+    sliderdata = Ilan.objects.filter(status="True")[:4] # get deseydik şart giricektik , :3 ürün al slider dataya at
+    category = Category.objects.filter(status="True")
+
+
+    context = {'setting': setting,
+               'category': category,  # categorileri index sayfasına gönderiyoruz
+               'page': 'home',
+               'sliderdata': sliderdata, # sliderdata yı contexte yükledi
+
+               }
+    return render(request, 'index.html', context)  # indexe gönderiyoruz
+
+
 # contexte ekledik ve index html e gönderdik ve index html de istediğimiz yere istediğimiz bilgileri yazdık
 def hakkimizda(request):
     setting = Setting.objects.get(pk=1)

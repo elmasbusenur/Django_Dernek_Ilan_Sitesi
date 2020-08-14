@@ -27,27 +27,34 @@
       <w>blogla</w>
       <w>bulunduğu</w>
       <w>burada</w>
+      <w>buradan</w>
       <w>buralar</w>
       <w>burasi</w>
       <w>buraya</w>
       <w>burayada</w>
       <w>burda</w>
       <w>categoride</w>
+      <w>categorileri</w>
       <w>charfiels</w>
       <w>ckeditor</w>
       <w>clasın</w>
       <w>contexte</w>
       <w>dataları</w>
+      <w>dataya</w>
+      <w>dayblogs</w>
+      <w>dayilans</w>
       <w>deki</w>
       <w>demektir</w>
       <w>deneme</w>
       <w>dernek</w>
       <w>dersek</w>
       <w>desciription</w>
+      <w>deseydik</w>
       <w>değişikliklerde</w>
       <w>değişmeyeceği</w>
       <w>değişti</w>
       <w>değiştirmek</w>
+      <w>dinamik</w>
       <w>direkt</w>
       <w>diye</w>
       <w>diğer</w>
@@ -86,13 +93,17 @@
       <w>formunu</w>
       <w>gelen</w>
       <w>gelir</w>
+      <w>gerekecek</w>
       <w>gerekmiyor</w>
       <w>getirir</w>
+      <w>getiriyor</w>
       <w>geçerli</w>
       <w>geçmemize</w>
       <w>gidicek</w>
+      <w>giricektik</w>
       <w>gönderdik</w>
       <w>gönderdiğimiz</w>
+      <w>göndericem</w>
       <w>gönderiyorum</w>
       <w>gönderiyoruz</w>
       <w>göndermem</w>
@@ -120,6 +131,7 @@
       <w>ilişki</w>
       <w>imagesinline</w>
       <w>imageye</w>
+      <w>indexe</w>
       <w>iner</w>
       <w>instagram</w>
       <w>istediğim</w>
@@ -156,6 +168,8 @@
       <w>kısmına</w>
       <w>kısım</w>
       <w>kısımlar</w>
+      <w>lastblogs</w>
+      <w>lastilans</w>
       <w>lconf</w>
       <w>lerde</w>
       <w>leri</w>
@@ -180,6 +194,8 @@
       <w>postla</w>
       <w>precomposed</w>
       <w>projectyaz</w>
+      <w>randomblogs</w>
+      <w>randomilans</w>
       <w>referanslar</w>
       <w>referanslarimiz</w>
       <w>referanslarımız</w>
@@ -196,15 +212,18 @@
       <w>sayfasına</w>
       <w>sağlıyor</w>
       <w>seçimli</w>
+      <w>seçiyoruz</w>
       <w>silinirse</w>
       <w>silinsin</w>
       <w>silme</w>
       <w>sitesi</w>
+      <w>sliderdata</w>
       <w>smtppassword</w>
       <w>smtpport</w>
       <w>smtpsemail</w>
       <w>smtpserver</w>
       <w>sonra</w>
+      <w>sorgu</w>
       <w>sosyal</w>
       <w>statuse</w>
       <w>statuye</w>
@@ -220,10 +239,12 @@
       <w>ulaşmak</w>
       <w>ulaşın</w>
       <w>uzunluk</w>
+      <w>verileri</w>
       <w>verir</w>
       <w>yani</w>
       <w>yapmak</w>
       <w>yapmalıyız</w>
+      <w>yapmamız</w>
       <w>yapıcaz</w>
       <w>yazdık</w>
       <w>yazdığımız</w>
@@ -234,14 +255,18 @@
       <w>yere</w>
       <w>yolunun</w>
       <w>yukarısıda</w>
+      <w>yükledik</w>
       <w>yüklenecek</w>
       <w>çalışabilmesi</w>
       <w>çalışıcam</w>
       <w>çağrıyoruz</w>
       <w>çağırabilmemiz</w>
       <w>çağırıcam</w>
+      <w>çağırıyor</w>
       <w>ögeler</w>
+      <w>ürün</w>
       <w>ürünü</w>
+      <w>şart</w>
       <w>şeyler</w>
       <w>şeylerde</w>
       <w>şeyleri</w>
